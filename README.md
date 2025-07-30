@@ -1,6 +1,6 @@
 # ₹ Salary Predictor
 
-A privacy-first web application delivering instant, AI-driven salary estimates to help you benchmark your value in today’s competitive job market. Experience seamless results in a visually stunning, distraction-free black-and-white glassmorphic interface.
+A sleek and privacy-focused web app that provides instant salary estimates based on your profile. Powered by a trained machine learning model, it helps you benchmark your worth in today's job market with a clean, distraction-free black-and-white interface built using Streamlit.
 
 ---
 
