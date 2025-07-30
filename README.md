@@ -89,9 +89,13 @@ text
 
 ## Demo
 
-<img width="1913" height="1079" alt="image" src="https://github.com/user-attachments/assets/5ad1aead-d58b-4ea8-b5f6-94db59d13700" />
+
 <br><br><br>
-<img width="1917" height="1079" alt="image" src="https://github.com/user-attachments/assets/8af8bd96-839b-4e30-b43d-cb5ca6f5504f" />
+  <img width="1912" height="917" alt="image" src="https://github.com/user-attachments/assets/fd646302-a08f-4821-95dc-f3f83e434819" />
+  
+<br><br>
+<img width="1919" height="928" alt="image" src="https://github.com/user-attachments/assets/3b5cc182-5f30-4e9f-b157-52600eb8b5db" />
+
 
 ---
 
