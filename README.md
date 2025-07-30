@@ -20,7 +20,7 @@ SalaryApp/
 ├── app.py # Streamlit UI & logic
 ├── model.pkl # Trained XGBoost model
 ├── features.pkl # Model features used for inference
-├── salary_train.csv # (Optional) Training dataset
+├── salary.csv # (Optional) Training dataset
 ├── requirements.txt # Python dependencies
 └── README.md # This file
 
@@ -34,8 +34,8 @@ Follow these steps to get the app up and running on your local machine:
 
 ### 1. Clone the repository
 
-git clone https://github.com/your-username/salary-prediction-app.git
-cd salary-prediction-app
+git https://github.com/daksh-ugi/IBM-PBEL-PROJECT-SUMMER-INTERN.git
+
 
 text
 
@@ -89,7 +89,7 @@ text
 
 ## Demo
 
-*(Add a screenshot or GIF here showcasing your clean glassmorphic black-and-white UI.)*
+<img width="1912" height="917" alt="Screenshot 2025-07-30 162040" src="https://github.com/user-attachments/assets/e26338bf-4700-4507-9a35-5966b38c315b" />
 
 ---
 
