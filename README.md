@@ -20,7 +20,7 @@ SalaryApp/
 ├── app.py # Streamlit UI & logic
 ├── model.pkl # Trained XGBoost model
 ├── features.pkl # Model features used for inference
-├── salary_train.csv # (Optional) Training dataset
+├── salary.csv # (Optional) Training dataset
 ├── requirements.txt # Python dependencies
 └── README.md # This file
 
@@ -66,7 +66,7 @@ text
 - Encodes all categorical fields dynamically using one-hot encoding.
 - Utilizes a finely tuned XGBoost model (with GridSearchCV hyperparameter tuning) for reliable salary predictions.
 - Compares your predicted salary against typical industry averages instantly.
-- All model training and export details are available in the notebook file `Pred_salary.ipynb`.
+- All model training and export details are available in the notebook file `PBEL.ipynb`.
 
 ---
 
@@ -89,7 +89,9 @@ text
 
 ## Demo
 
-*(Add a screenshot or GIF here showcasing your clean glassmorphic black-and-white UI.)*
+<img width="1913" height="1079" alt="image" src="https://github.com/user-attachments/assets/5ad1aead-d58b-4ea8-b5f6-94db59d13700" />
+
+<img width="1917" height="1079" alt="image" src="https://github.com/user-attachments/assets/8af8bd96-839b-4e30-b43d-cb5ca6f5504f" />
 
 ---
 
