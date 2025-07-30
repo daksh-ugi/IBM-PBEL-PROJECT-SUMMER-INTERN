@@ -1,16 +1,13 @@
-# IBM-PBEL-PROJECT-SUMMER-INTERN
-Salary Predictor - A sleek and privacy-focused web app that provides instant salary estimates based on your profile. Powered by a trained machine learning model, it helps you benchmark your worth in today's job market with a clean, distraction-free black-and-white interface built using Streamlit.
-<br>
 ✨ What Makes This App Stand Out?
-🔮 Instant Results: Get real-time salary predictions as you fill in your details.
+🔮 Instant Results: Real-time salary predictions as you complete your profile.
 
-🖤 Sleek Glassmorphic UI: Minimalist black-and-white design for a premium, modern look.
+🖤 Sleek Glassmorphic UI: Minimalist, high-contrast design for a premium and modern feel.
 
-⚡ Built for Privacy: Nothing leaves your computer—your data stays yours.
+⚡ Built for Privacy: Data never leaves your device—your privacy is always protected.
 
-📊 Smarter Modeling: Powered by XGBoost, one-hot-encoded features, and robust GridSearchCV tuning.
+📊 Smarter Modeling: Powered by XGBoost, one-hot encoding, and robust GridSearchCV hyperparameter tuning for reliable predictions.
 
-🎨 Custom UX: Responsive form, gorgeous gradients, and motivational quotes to keep you inspired.
+🎨 Custom UX: Responsive forms, stylish gradients, and motivational career quotes keep you inspired as you explore your next steps.
 
 🗂️ Project Layout
 text
@@ -22,34 +19,34 @@ SalaryApp/
 ├── requirements.txt   # Dependencies
 └── README.md          # Project summary and guide
 ⚙️ Get Started
-Clone this repo:
+1. Clone this repo:
 
 bash
 git clone https://github.com/your-username/salary-prediction-app.git
 cd salary-prediction-app
-(Optional) Create a virtual environment:
+2. (Optional) Create a virtual environment:
 
 bash
 python -m venv venv
-source venv/bin/activate  # Windows: venv\Scripts\activate
-Install everything you need:
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+3. Install requirements:
 
 bash
 pip install -r requirements.txt
-Start the app:
+4. Start the app:
 
 bash
 streamlit run app.py
-🧠 How it Works
-Cleans and preps input data
+🧠 How It Works
+Cleans and preps your input data for analysis.
 
-Encodes categorical dropdowns with one-hot strategy
+Encodes all categorical fields with dynamic one-hot encoding.
 
-Feeds features into a tuned XGBoost regressor for live predictions
+Runs your features through a finely-tuned XGBoost regressor for instant predictions.
 
-Compares your outcome to typical industry averages—instantly
+Compares your result to typical industry averages in real time.
 
-Model pipeline and training steps are shown in Pred_salary.ipynb.
+All model training and export steps are explained in Pred_salary.ipynb.
 
 💡 Requirements
 streamlit
@@ -63,9 +60,9 @@ xgboost
 joblib
 
 🖼️ Demo
-Add a screenshot or gif here to showcase your glassmorphic UI!
+Add a screenshot or GIF here to showcase your beautiful, glassmorphic UI!
 
 🚀 Motivation
 “Every pro was once an amateur. Every expert was once a beginner. So dream big and start now.”
 
-Developed with 🖤 by [Piyush Sharma]
+<br> Developed with 🖤 by **[Piyush Sharma]**
