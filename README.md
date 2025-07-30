@@ -111,4 +111,3 @@ Developed with care by **Piyush Sharma**
 
 ---
 
-*Feel free to customize this README further with screenshots, deployment instructions, or contribution guidelines as your project evolves.*
