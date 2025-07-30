@@ -1,113 +1,58 @@
-# ₹ Salary Predictor
+� Salary Prediction App
+ This project is a machine learning-powered Salary Prediction App built using:
+ 
+Python
+ XGBoost Regressor (with GridSearchCV tuning)
+ Streamlit for the interactive web UI
+ One-hot encoding for categorical features
+ 🚀 Features
+ 
+Interactive Streamlit UI
 
-A privacy-first web application delivering instant, AI-driven salary estimates to help you benchmark your value in today’s competitive job market. Experience seamless results in a visually stunning, distraction-free black-and-white glassmorphic interface.
-
----
-
-## What Makes This App Stand Out
-
-- **Instant, Intelligent Predictions:** See your estimated salary the moment you input your details—no waiting, no confusion.
-- **Minimalist, Modern UI:** Enjoy a crisp, high-contrast glassmorphic design that puts your career front and center.
-- **Full Privacy by Design:** All data processing happens locally in your browser. Your information stays with you, always.
-- **Serious Machine Learning Power:** The app leverages XGBoost, one-hot encoded features, and sophisticated GridSearchCV tuning for predictions you can trust.
-- **Thoughtful, Inspiring Experience:** Motivational quotes, smooth workflow, and a responsive form guide you through every step, inspiring confidence as you plan your next move.
-
----
-
-## Project Structure
-
-SalaryApp/
-├── app.py # Streamlit UI & logic
-├── model.pkl # Trained XGBoost model
-├── features.pkl # Model features used for inference
-├── salary.csv # (Optional) Training dataset
-├── requirements.txt # Python dependencies
-└── README.md # This file
-
-text
-
----
-
-## Getting Started
-
-Follow these steps to get the app up and running on your local machine:
-
-### 1. Clone the repository
-
-git clone https://github.com/daksh-ugi/IBM-PBEL-PROJECT-SUMMER-INTERN.git
-
-
-text
-
-### 2. (Optional) Create and activate a virtual environment
-
-python -m venv venv
-source venv/bin/activate # On Windows: venv\Scripts\activate
-
-text
-
-### 3. Install the required packages
-
-pip install -r requirements.txt
-
-text
-
-### 4. Run the app
-
-streamlit run app.py
-
-text
-
----
-
-## How It Works
-
-- Cleans and prepares your input data for use in prediction.
-- Encodes all categorical fields dynamically using one-hot encoding.
-- Utilizes a finely tuned XGBoost model (with GridSearchCV hyperparameter tuning) for reliable salary predictions.
-- Compares your predicted salary against typical industry averages instantly.
-- All model training and export details are available in the notebook file `PBEL.ipynb`.
-
----
-
-## Requirements
-
-- Python 3.x
-- streamlit
-- pandas
-- scikit-learn
-- xgboost
-- joblib
-
-You can install all dependencies via:
-
-pip install -r requirements.txt
-
-text
-
----
-
-## Demo
-
-
-<br><br><br>
-  <img width="1912" height="917" alt="image" src="https://github.com/user-attachments/assets/fd646302-a08f-4821-95dc-f3f83e434819" />
-  
-<br><br>
-<img width="1919" height="928" alt="image" src="https://github.com/user-attachments/assets/3b5cc182-5f30-4e9f-b157-52600eb8b5db" />
-
-
----
-
-## Motivation
-
-> “Every pro was once an amateur. Every expert was once a beginner. So dream big and start now.”
-
----
-
-## Credits
-
-Developed with care by **Piyush Sharma**
-
----
-
+ User inputs: Age, Experience, Education, Industry, etc.
+ Categorical dropdowns with dynamic one-hot encoding
+ Real-time salary prediction output
+ Custom gradient background using HTML & CSS
+ 📁 Project Structure
+ 
+ SalaryApp/
+ ├── app.py                 # Streamlit UI
+ ├── model.pkl              # Trained XGBoost model
+ ├── features.pkl           # Feature list used for prediction
+ ├── salary_train.csv       # (Optional) Training dataset
+ ├── requirements.txt       # Python dependencies
+ └── README.md              # Project documentation
+ 📦 Setup Instructions
+ 
+ 1. 
+Clone the repository
+ git clone https://github.com/your-username/salary-prediction-app.git
+ cd salary-prediction-app
+ 1. 
+Create a virtual environment (optional but recommended)
+ 1
+python-m venv venv
+ source venv/bin/activate # or venv\Scripts\activate on Windows
+ 1. 
+Install dependencies
+ pip install-r requirements.txt
+ 1. 
+Run the app
+ streamlit run app.py
+ 🧠 Model Training (Optional)
+ If you want to retrain the model, use the provided notebook 
+ 
+Cleans data
+ Performs one-hot encoding
+ Tunes model with GridSearchCV
+ Saves the final model and feature list
+ Pred_salary.ipynb :
+ ✅ Requirements
+ streamlit
+ pandas
+ scikit-learn
+ xgboost
+ joblib
+ 📸 Screenshot
+ 🙌 Credits
+ Developed by [Piyush Sharma]
