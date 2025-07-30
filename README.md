@@ -90,6 +90,9 @@ text
 ## Demo
 
 <img width="1912" height="917" alt="Screenshot 2025-07-30 162040" src="https://github.com/user-attachments/assets/e26338bf-4700-4507-9a35-5966b38c315b" />
+<br><br>
+<img width="1919" height="928" alt="Screenshot 2025-07-30 162150" src="https://github.com/user-attachments/assets/27126449-fc0a-463c-b4ce-70c8ea82f597" />
+
 
 ---
 
