@@ -35,7 +35,7 @@ Follow these steps to get the app up and running on your local machine:
 ### 1. Clone the repository
 
 git clone https://github.com/daksh-ugi/IBM-PBEL-PROJECT-SUMMER-INTERN.git
-cd salary-prediction-app
+
 
 text
 
